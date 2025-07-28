@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { Menu, Search, Heart, ShoppingBag } from 'lucide-react'
+import { Menu, Search } from 'lucide-react'
 import { NAVIGATION_ITEMS } from '@/lib/constants'
 
 export const Header: React.FC = () => {
@@ -40,9 +40,6 @@ export const Header: React.FC = () => {
           <div className="flex items-center space-x-4">
             <button className="p-2 hover:bg-gray-50 rounded-full transition-colors">
               <Search size={20} />
-            </button>
-            <button className="p-2 hover:bg-gray-50 rounded-full transition-colors">
-              <Heart size={20} />
             </button>
           </div>
         </div>

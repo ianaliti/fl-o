@@ -5,10 +5,6 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function formatPrice(price: number, currency: string = '₽'): string {
-  return `${price.toLocaleString('ru-RU')}${currency}`
-}
-
 export function generateSlug(text: string): string {
   return text
     .toLowerCase()
