@@ -1,16 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
 
-const galleryFiles = [
-  '/images/gallery/IMG_1771.PNG',
-  '/images/gallery/IMG_1836.PNG',
-  '/images/gallery/IMG_1835.PNG',
-  '/images/gallery/IMG_1834.PNG',
-  '/images/gallery/IMG_1833.PNG',
-  '/images/gallery/IMG_1271.JPG',
-]
 
 function GalleryCollages() {
   return (

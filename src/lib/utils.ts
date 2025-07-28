@@ -13,7 +13,7 @@ export function generateSlug(text: string): string {
     .trim()
 }
 
-export function debounce<T extends (...args: any[]) => void>(
+export function debounce<T extends (...args: unknown[]) => void>(
   func: T,
   wait: number
 ): (...args: Parameters<T>) => void {
